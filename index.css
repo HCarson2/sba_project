@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(laptop.jpeg);
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*
+  .red_nav {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+*/
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.first {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 23px;
+  z-index: 1;
+}
+/*
+  nav span {position: absolute;
+    top: 0%;
+    left: 40%;
+    width: 95px;
+    height: 70%;
+    background: linear-gradient(45deg, #4f1919,#ff3333);
+    border-radius: 8px;
+  }
+*/
+nav a:hover {
+  width: 95px;
+  height: 70%;
+  background: linear-gradient(45deg, #4f1919, #ff3333);
+  border-radius: 8px;
+}
